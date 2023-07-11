@@ -50,3 +50,17 @@ Run:
 ```
 java -jar out/production/flightplot.jar
 ```
+---
+### 以下是魔改版FlightPlot的使用方式
+
+**使用方法：**
+- 先打开需要分析的ulg日志
+- 在Fields List中添加如下两个解析器
+	- vehicle_global_position_0.lon
+	- vehicle_global_position_0.lat
+- 在Menu选择地图模式（如下图所示）
+- 点击Panel中的数据，可以在地图中新增锚点（如下图所示）
+
+![图示一](https://imgs.wiki/imgs/2023/07/11/acdb9b5cbd2de76e.png)
+
+![图示二](https://imgs.wiki/imgs/2023/07/11/61dc97fe10a653e9.png)
